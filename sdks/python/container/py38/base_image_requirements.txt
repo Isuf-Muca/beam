@@ -161,3 +161,4 @@ urllib3==2.2.2
 wrapt==1.16.0
 zipp==3.19.2
 zstandard==0.23.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
