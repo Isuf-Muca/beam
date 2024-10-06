@@ -16,7 +16,7 @@
 # limitations under the License.
 ###############################################################################
 
-FROM node:18.18-bullseye-slim
+FROM node:18.20.4-bullseye-slim
 LABEL Author "Apache Beam <dev@beam.apache.org>"
 ARG TARGETOS
 ARG TARGETARCH
