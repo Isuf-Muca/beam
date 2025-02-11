@@ -16,7 +16,7 @@
 # limitations under the License.
 ###############################################################################
 
-FROM golang:1.20-bookworm
+FROM golang:1.24rc3-bookworm
 
 WORKDIR /usr/src/app
 COPY go.mod ./
